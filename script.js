@@ -20,4 +20,4 @@ var anonymous = function(myarrar)
 
 }
 
-console.log(anonymous([101, 102, 103, 104]))
+console.log(anonymous([101, 102, 103, 104, 111, 112, 999]))
