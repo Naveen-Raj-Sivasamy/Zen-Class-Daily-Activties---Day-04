@@ -3,37 +3,21 @@
 
 console.log("Question 1.a: Print odd numbers in an array")
 
-//{1, 2, 3, 4, 5, 6, 7, 8}
+//anonymous function
 
-var samplearray;
-var oddnumbers = [];
+var myresult = [];
 
-function odd(samplearray)
+var anonymous = function(myarrar)
 {
-    for(var i=0; i<samplearray.length; i++)
 
-    if(samplearray[i]%2!==0)
+    for(i=0; i<myarrar.length; i++)
+
+    if(myarrar[i]%2==0)
     {
-        oddnumbers.push(samplearray[i]);
+        myresult.push((myarrar[i]));
     }
-    return oddnumbers;
+    return myresult;
+
 }
-console.log(odd([11, 12, 13, 34, 75, 86, 79, 80, 99, 1001])); //In this function call, we have added the array rather than assigning in the starting line
 
-
-//another type: 
-
-var samplearray02;
-var oddnumbers02 = [];
-
-function odd02(samplearray02)
-{
-    for(var i=0; i<samplearray02.length; i++)
-
-    if(samplearray02[i]%2!==0)
-    {
-        oddnumbers02.push(samplearray02[i]);
-    }
-    console.log(oddnumbers02)
-}
-odd02([1, 2, 3, 4, 5, 6, 7])
+console.log(anonymous([101, 102, 103, 104]))
