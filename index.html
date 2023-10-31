@@ -23,11 +23,22 @@
         .blink {
             animation: blink 2s infinite;
         }
+ /* CSS for rotate text */
+ .rotate-text {
+            display: inline-block;
+            transform: rotate(45deg);
+        }
+
+        /* CSS for textarea */
+        textarea {
+            border: 1px solid #000;
+        }
 
         body {
             background-color: blanchedalmond;
         }
-
+  
+        
     </style>
 </head>
 <body>
@@ -44,14 +55,15 @@
     Zen-Class-Daily-Activities---<span class="blink">Day-04</span></p>
     <p style="font-size: 18px; color: crimson;"><strong>Name: </strong><span class="blink"><a style="color: black;">Naveen Raj Sivasamy</a></span></p>
     <p style="font-size: 18px; color: crimson;"><strong>Batch: </strong><span class="blink"><a style="color: black;">B53 WD Tamil</a></span></p>
-    <p style="font-size: 18px; color: crimson;"><strong>Date: </strong><a style="color: black;">01 November 2023</a></p>
+    <p style="font-size: 18px; color: crimson;"><strong>Email ID: <span class="rotate-text"></strong><a rel="noopener noreferrer" href="Mailto:naveenrajsivasamy@gmail.com"style="color: black; ">naveenrajsivasamy@gmail.com</a></span></p>
     <br>
     
      <!-- Textarea added below the content -->
+     <h3>Questions</h3>
      <textarea rows="20" cols="80" placeholder="">
     1. Do the below programs in anonymous function & lIFE
         
-            a. Print odd numbers in an array "
+            a. Print odd numbers in an array
             b. Convert all the strings to title caps in a string array
             c. Sum of all numbers in an array
             d. Return all the prime numbers in an array
@@ -71,10 +83,14 @@
         
     
     <br><br>
-    <p style="font-size: 18px; text-align: center;">Visit My <a href="https://www.linkedin.com/in/naveen-raj-sivasamy-603826196/" style="font-size: 18px; color: red;" target="_blank"><span class="blink">LinkedIn Profile</span></a></p><br><br><br>
+    <p style="font-size: 18px; text-align: center;"> Visit My <a href="https://www.linkedin.com/in/naveen-raj-sivasamy-603826196/" style="font-size: 18px; color: red;" target="_blank"><span class="blink">LinkedIn Profile</span></a></p>
 
-    
-    
+    <!-- <script>
+        //I added alert message when the page loads
+        window.onload = function() {
+            alert("Welcome to the Zen Class Daily Assignments!");
+        };
+    </script> -->
      
     
     <script src="./script.js"></script>
