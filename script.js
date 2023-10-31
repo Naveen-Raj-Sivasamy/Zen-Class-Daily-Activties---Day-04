@@ -12,7 +12,7 @@ var anonymous = function(myarrar)
 
     for(i=0; i<myarrar.length; i++)
 
-    if(myarrar[i]%2==0)
+    if(myarrar[i]%2!==0)
     {
         myresult.push((myarrar[i]));
     }
